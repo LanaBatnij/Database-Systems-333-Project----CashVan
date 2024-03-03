@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="682.0" prefWidth="866.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox prefHeight="682.0" prefWidth="810.0" style="-fx-background-color: #89CFF0;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="53.0" prefWidth="500.0">
+               <children>
+                  <ImageView fitHeight="51.0" fitWidth="86.0">
+                     <image>
+                        <Image url="@../../../../../../../Downloads/jebrinilogo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="107.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView layoutX="29.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/icons8-home-48.png" />
+               </image>
+            </ImageView>
+            <TextField alignment="CENTER" layoutX="2.0" layoutY="232.0" prefHeight="26.0" prefWidth="102.0" text="Employee" />
+            <ImageView fitHeight="50.0" fitWidth="53.0" layoutX="27.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView layoutX="29.0" layoutY="187.0">
+               <image>
+                  <Image url="@../../../../../../../Downloads/icons8-employee-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="67.0" fitWidth="58.0" layoutX="24.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/icons8-customer-100.png" />
+               </image>
+            </ImageView>
+            <TextField alignment="CENTER" layoutX="2.0" layoutY="314.0" prefHeight="26.0" prefWidth="102.0" text="Customer " />
+            <TextField alignment="CENTER" layoutX="3.0" layoutY="149.0" prefHeight="26.0" prefWidth="102.0" text="Dashboard" />
+            <ImageView fitHeight="38.0" fitWidth="41.0" layoutX="35.0" layoutY="349.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/icons8-dairy-products-32.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="51.0" fitWidth="58.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/icons8-user-50.png" />
+               </image>
+            </ImageView>
+            <TextField alignment="CENTER" layoutX="2.0" layoutY="387.0" prefHeight="26.0" prefWidth="102.0" text="Products" />
+            <TextField alignment="CENTER" layoutX="6.0" layoutY="51.0" prefHeight="26.0" prefWidth="102.0" text="User Name" />
+            <ImageView fitHeight="47.0" fitWidth="43.0" layoutX="32.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/icons8-payment-50.png" />
+               </image>
+            </ImageView>
+            <TextField alignment="CENTER" layoutX="6.0" layoutY="456.0" prefHeight="26.0" prefWidth="102.0" text="Payment " />
+            <ImageView fitHeight="47.0" fitWidth="43.0" layoutX="32.0" layoutY="489.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/icons8-box-64.png" />
+               </image>
+            </ImageView>
+            <TextField alignment="CENTER" layoutX="2.0" layoutY="539.0" prefHeight="26.0" prefWidth="102.0" text="Orders" />
+            <ImageView fitHeight="47.0" fitWidth="43.0" layoutX="32.0" layoutY="639.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/icons8-reports-58.png" />
+               </image>
+            </ImageView>
+            <TextField alignment="CENTER" layoutX="2.0" layoutY="682.0" prefHeight="26.0" prefWidth="102.0" text="Reports" />
+            <ImageView fitHeight="47.0" fitWidth="43.0" layoutX="33.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/icons8-discount-48.png" />
+               </image>
+            </ImageView>
+            <TextField alignment="CENTER" layoutX="2.0" layoutY="608.0" prefHeight="26.0" prefWidth="102.0" text="Discount" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

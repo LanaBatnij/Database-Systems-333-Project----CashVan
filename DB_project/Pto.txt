@@ -1,0 +1,15 @@
+1- Main interface /* Login, Sign up, Forget password, logo */
+
+A- main interface /* logo, buttons For the other screens like 
+1) Dashboard
+2) Customers
+3) products
+4) Employee
+
+5) Orders ---- Done
+6) Payments
+7) Discount 
+8) Reports 
+    */
+
+
